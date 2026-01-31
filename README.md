@@ -57,6 +57,33 @@ Sourced from **AvidGolfer Magazine's 2025 Best of Public Golf** rankings:
 | 2 | Poor | Significant issues. |
 | 1 | Avoid | Do not return. |
 
+## Google Maps Integration
+
+### Import to Google My Maps
+
+1. Go to [Google My Maps](https://www.google.com/maps/d/)
+2. Click "Create a New Map"
+3. Click "Import" in the left panel
+4. Upload `dfw_golf_courses.kml`
+
+### Or generate a fresh KML file:
+
+```bash
+python3 generate_map.py --spreadsheet-url "YOUR_GOOGLE_SHEETS_URL"
+```
+
+### Map Color Legend
+
+| Color | Price Tier | Price Range |
+|-------|------------|-------------|
+| Green | $ (Budget) | Under $60 |
+| Blue | $$ (Value) | $60-80 |
+| Orange | $$$ (Premium) | $80-125 |
+| Purple | $$$$ (Luxury) | $125+ |
+
+- **Circle icons** = Played
+- **Blank icons** = To Play
+
 ## Sources
 
 - [AvidGolfer 2025 Best of Public Golf](https://myavidgolfer.com/cover-story-2025-best-of-public-golf/)

@@ -89,8 +89,32 @@ golf-tracker/
 ├── README.md                    # Project overview
 ├── CLAUDE.md                    # This file - Claude instructions
 ├── golf_tracker_template.csv    # Main data file (import to Google Sheets)
-└── golf_tracker_setup.md        # Setup instructions and formulas
+├── golf_tracker_setup.md        # Setup instructions and formulas
+├── generate_map.py              # Script to generate KML map file
+└── dfw_golf_courses.kml         # Google My Maps import file
 ```
+
+## Regenerating the Map
+
+After updating the CSV, regenerate the KML file:
+
+```bash
+python3 generate_map.py
+```
+
+Or with a link back to the spreadsheet:
+
+```bash
+python3 generate_map.py --spreadsheet-url "https://docs.google.com/spreadsheets/d/YOUR_ID"
+```
+
+The KML file uses color-coded markers:
+- **Green** = Budget ($)
+- **Blue** = Value ($$)
+- **Orange** = Premium ($$$)
+- **Purple** = Luxury ($$$$)
+- **Circle** = Played
+- **Blank** = To Play
 
 ## CSV Column Reference
 

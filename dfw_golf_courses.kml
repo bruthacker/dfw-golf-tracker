@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>DFW Golf Course Tracker</name>
+<description>Personal golf course tracker - DFW and beyond</description>
+<Style id="played-budget">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="played-value">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="played-premium">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="played-luxury">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="toplay-budget">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="toplay-value">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="toplay-premium">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Style id="toplay-luxury">
+    <IconStyle>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon>
+        <scale>1.2</scale>
+    </IconStyle>
+</Style>
+<Folder>
+<name>Played (18)</name>
+<Placemark>
+    <name>Bear Creek Golf Club - West</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://bearcreek-golf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/6374-bear-creek-golf-club-west-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>3500 Bear Creek Ct, Dallas, TX 75261</address>
+</Placemark>
+<Placemark>
+    <name>Indian Creek Golf Club - Lakes</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.indiancreekgolfclub.com">Website</a><br/><a href="https://www.indiancreekgolfclub.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>1650 W Frankford Rd, Carrollton, TX 75007</address>
+</Placemark>
+<Placemark>
+    <name>Grapevine Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://grapevinegc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/5996-grapevine-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>3800 Fairway Dr, Grapevine, TX 76051</address>
+</Placemark>
+<Placemark>
+    <name>Sherrill Park Golf Course No. 2</name>
+    <description><![CDATA[<b>Price:</b> $$ ($50-70)<br/><a href="https://www.sherrillparkgolf.com">Website</a><br/><a href="https://www.sherrillparkgolf.com/booktime/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>2001 E Lookout Dr, Richardson, TX 75082</address>
+</Placemark>
+<Placemark>
+    <name>Tangle Ridge Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.tangleridge.com">Website</a><br/><a href="https://www.tangleridge.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>818 Tangle Ridge Dr, Grand Prairie, TX 75052</address>
+</Placemark>
+<Placemark>
+    <name>The Golf Club of Dallas</name>
+    <description><![CDATA[<b>Price:</b> $$ ($50-70)<br/><a href="https://www.golfclubdallas.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/5903-the-golf-club-of-dallas/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>2200 W Red Bird Ln, Dallas, TX 75232</address>
+</Placemark>
+<Placemark>
+    <name>Cedar Crest Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $ ($35-50)<br/><a href="https://www.golfcedarcrest.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/5849-cedar-crest-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>1800 Southerland Ave, Dallas, TX 75203</address>
+</Placemark>
+<Placemark>
+    <name>Tenison Park - Glen</name>
+    <description><![CDATA[<b>Price:</b> $ ($35-50)<br/><a href="https://www.tenisonpark.com">Website</a><br/><a href="https://www.tenisonpark.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>3501 Samuell Blvd, Dallas, TX 75223</address>
+</Placemark>
+<Placemark>
+    <name>Lake Park Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $ ($40-60)<br/><a href="https://lakeparkgc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/6212-lake-park-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>6 Lake Park Rd, Lewisville, TX 75057</address>
+</Placemark>
+<Placemark>
+    <name>Prairie Lakes Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $ ($40-60)<br/><a href="https://www.prairielakesgolf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/1311-prairie-lakes-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>3202 SE 14th St, Grand Prairie, TX 75052</address>
+</Placemark>
+<Placemark>
+    <name>Timberlinks Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $ ($30-45)<br/><a href="https://www.timberlinksgolfclub.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/7908-timberlinks/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>5201 Par Dr, Denton, TX 76208</address>
+</Placemark>
+<Placemark>
+    <name>Oakmont Country Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-120)<br/><a href="https://www.invitedclubs.com/clubs/oakmont-country-club">Website</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>1901 Oakmont Dr, Corinth, TX 76210</address>
+</Placemark>
+<Placemark>
+    <name>Mountain Shadows Executive GC</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-100)<br/><a href="https://mountainshadows.com/golf">Website</a><br/><a href="https://mountainshadows.com/golf/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>5641 E Lincoln Dr, Scottsdale, AZ 85253</address>
+</Placemark>
+<Placemark>
+    <name>Gold Canyon - Dinosaur Mountain</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-150)<br/><a href="https://www.gcgr.com">Website</a><br/><a href="https://www.gcgr.com/golf/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>6100 S Kings Ranch Rd, Gold Canyon, AZ 85118</address>
+</Placemark>
+<Placemark>
+    <name>Lookout Mountain Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-150)<br/><a href="https://www.playpointegolf.com/lookout-mountain">Website</a><br/><a href="https://www.playpointegolf.com/lookout-mountain/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>11111 N 7th St, Phoenix, AZ 85020</address>
+</Placemark>
+<Placemark>
+    <name>Ak-Chin Southern Dunes Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-150)<br/><a href="https://golfakchinsoutherndunes.com">Website</a><br/><a href="https://golfakchinsoutherndunes.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#played-premium</styleUrl>
+    <address>48456 AZ-238, Maricopa, AZ 85139</address>
+</Placemark>
+<Placemark>
+    <name>Glen Flora Country Club</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-100)<br/><a href="https://www.glenflora.org">Website</a>]]></description>
+    <styleUrl>#played-value</styleUrl>
+    <address>2200 N Lewis Ave, Waukegan, IL 60087</address>
+</Placemark>
+<Placemark>
+    <name>Encanto Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $ ($25-40)<br/><a href="https://www.phoenix.gov/parks/golf/encanto">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/5387-encanto-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#played-budget</styleUrl>
+    <address>2705 N 15th Ave, Phoenix, AZ 85007</address>
+</Placemark>
+</Folder>
+<Folder>
+<name>To Play (35)</name>
+<Placemark>
+    <name>Texas Star Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $$ ($50-80)<br/><a href="https://www.texasstargolf.com">Website</a><br/><a href="https://www.texasstargolf.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>1400 Texas Star Pkwy, Euless, TX 76040</address>
+</Placemark>
+<Placemark>
+    <name>Fields Ranch West</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($150+)<br/><a href="https://www.omnipgafrisco.com/golf/fields-ranch">Website</a><br/><a href="https://www.omnipgafrisco.com/golf/fields-ranch/book-tee-time">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>3255 PGA Pkwy, Frisco, TX 75033</address>
+</Placemark>
+<Placemark>
+    <name>Bridlewood Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.bridlewoodgolfclub.com">Website</a><br/><a href="https://www.bridlewoodgolfclub.com/tee-times">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>4000 W Windsor Dr, Flower Mound, TX 75028</address>
+</Placemark>
+<Placemark>
+    <name>Fields Ranch East</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($150+)<br/><a href="https://www.omnipgafrisco.com/golf/fields-ranch">Website</a><br/><a href="https://www.omnipgafrisco.com/golf/fields-ranch/book-tee-time">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>3255 PGA Pkwy, Frisco, TX 75033</address>
+</Placemark>
+<Placemark>
+    <name>Heritage Ranch Golf &amp; CC</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.heritageranchcc.com">Website</a><br/><a href="https://www.heritageranchcc.com/golf/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>465 Scenic Ranch Cir, McKinney, TX 75069</address>
+</Placemark>
+<Placemark>
+    <name>Old American Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.oldamericangc.com">Website</a><br/><a href="https://www.oldamericangc.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>1001 Lebanon Rd, The Colony, TX 75056</address>
+</Placemark>
+<Placemark>
+    <name>Sky Creek Ranch Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.skycreekranchgc.com">Website</a><br/><a href="https://www.skycreekranchgc.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>600 Promontory Dr, Keller, TX 76248</address>
+</Placemark>
+<Placemark>
+    <name>Texas Rangers Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.texasrangersgolf.com">Website</a><br/><a href="https://www.texasrangersgolf.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>701 Brown Blvd, Arlington, TX 76011</address>
+</Placemark>
+<Placemark>
+    <name>The Tribute Golf Links</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://thetributegc.com">Website</a><br/><a href="https://thetributegc.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>1000 Boyd Rd, The Colony, TX 75056</address>
+</Placemark>
+<Placemark>
+    <name>Tour 18 Dallas</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.tour18golf.com/dallas">Website</a><br/><a href="https://www.tour18golf.com/dallas/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>8718 Amen Corner, Flower Mound, TX 75022</address>
+</Placemark>
+<Placemark>
+    <name>Wildhorse at Robson Ranch</name>
+    <description><![CDATA[<b>Price:</b> $$$$ ($125+)<br/><a href="https://www.robsonranchgolfclub.com">Website</a><br/><a href="https://www.robsonranchgolfclub.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-luxury</styleUrl>
+    <address>9448 Ed Robson Cir, Denton, TX 76207</address>
+</Placemark>
+<Placemark>
+    <name>Buffalo Creek Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://buffalocreekgc.com">Website</a><br/><a href="https://buffalocreekgc.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>624 Country Club Dr, Rockwall, TX 75032</address>
+</Placemark>
+<Placemark>
+    <name>Frisco Lakes Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.friscolakesgc.com">Website</a><br/><a href="https://www.friscolakesgc.com/golf/tee-times">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>7170 Anthem Dr, Frisco, TX 75034</address>
+</Placemark>
+<Placemark>
+    <name>Indian Creek Golf Club - Creek</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.indiancreekgolfclub.com">Website</a><br/><a href="https://www.indiancreekgolfclub.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>1650 W Frankford Rd, Carrollton, TX 75007</address>
+</Placemark>
+<Placemark>
+    <name>The Golf Club at Fossil Creek</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://thegolfclubatfossilcreek.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/5929-the-golf-club-at-fossil-creek/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>3401 Clubgate Dr, Fort Worth, TX 76137</address>
+</Placemark>
+<Placemark>
+    <name>The Golf Club at Twin Creeks</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://twincreeksgolf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/4878-the-golf-club-at-twin-creeks/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>501 Twin Creeks Dr, Allen, TX 75013</address>
+</Placemark>
+<Placemark>
+    <name>The Trails of Frisco Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.thetrailsoffriscogc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/33-the-trails-of-frisco-golf-club/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>10411 Teel Pkwy, Frisco, TX 75034</address>
+</Placemark>
+<Placemark>
+    <name>Tierra Verde Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.arlingtongolf.com/tierra-verde">Website</a><br/><a href="https://www.arlingtongolf.com/tee-times">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>7005 Golf Club Dr, Arlington, TX 76001</address>
+</Placemark>
+<Placemark>
+    <name>Waterchase Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.waterchasegc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/48-waterchase-golf-club/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>8951 Creek Run Rd, Fort Worth, TX 76120</address>
+</Placemark>
+<Placemark>
+    <name>Brazos Club (Sugar Tree)</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://sugartreegolf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/7796-sugartree-golf-club/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>251 SugarTree Dr, Lipan, TX 76462</address>
+</Placemark>
+<Placemark>
+    <name>Firewheel Golf Park - Bridges</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.golffirewheel.com">Website</a><br/><a href="https://www.golffirewheel.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>1535 E Brand Rd, Garland, TX 75044</address>
+</Placemark>
+<Placemark>
+    <name>Hawks Creek Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.hawkscreek.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/4122-hawks-creek/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>6520 White Settlement Rd, Westworth Village, TX 76114</address>
+</Placemark>
+<Placemark>
+    <name>Meadowbrook Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.fortworthgolf.org/golf/meadowbrook">Website</a><br/><a href="https://www.fortworthgolf.org/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>1815 Jenson Rd, Fort Worth, TX 76112</address>
+</Placemark>
+<Placemark>
+    <name>Sherrill Park Golf Course No. 1</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.sherrillparkgolf.com">Website</a><br/><a href="https://www.sherrillparkgolf.com/booktime/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>2001 E Lookout Dr, Richardson, TX 75082</address>
+</Placemark>
+<Placemark>
+    <name>Southern Oaks Golf &amp; Tennis</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.southernoaksgolf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/7042-southern-oaks-golf-club/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>13765 Southern Oaks Dr, Burleson, TX 76028</address>
+</Placemark>
+<Placemark>
+    <name>The Bridges Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.bridgestexasgolf.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/4512-the-bridges-golf-club-tx/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>2400 Fred Couples Dr, Gunter, TX 75058</address>
+</Placemark>
+<Placemark>
+    <name>The Courses at Watters Creek</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-80)<br/><a href="https://www.watterscreekgolf.com">Website</a><br/><a href="https://www.watterscreekgolf.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>7201 Chase Oaks Blvd, Plano, TX 75025</address>
+</Placemark>
+<Placemark>
+    <name>Tempest Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://www.tempestgolfclub.com">Website</a><br/><a href="https://www.tempestgolfclub.com/tee-times/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>568 E Wilkins Rd, Gladewater, TX 75647</address>
+</Placemark>
+<Placemark>
+    <name>Pine Dunes Resort &amp; Golf Club</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($100-150)<br/><a href="https://www.pinedunes.com">Website</a><br/><a href="https://www.pinedunes.com/golf/tee-times">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>159 Private Rd 7019, Frankston, TX 75763</address>
+</Placemark>
+<Placemark>
+    <name>The Cliffs Resort</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://ddresorts.com/the-cliffs/">Website</a><br/><a href="https://ddresorts.com/the-cliffs/golf/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>160 Cliffs Dr, Graford, TX 76449</address>
+</Placemark>
+<Placemark>
+    <name>The Links at Land&#x27;s End</name>
+    <description><![CDATA[<b>Price:</b> $$ ($60-90)<br/><a href="https://www.golflakefork.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/6813-the-links-at-lands-end/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-value</styleUrl>
+    <address>285 Private Rd 5980, Yantis, TX 75497</address>
+</Placemark>
+<Placemark>
+    <name>White Bluff Resort</name>
+    <description><![CDATA[<b>Price:</b> $$$ ($80-125)<br/><a href="https://whitebluffresort.com">Website</a><br/><a href="https://whitebluffgolf.teesnap.net/">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-premium</styleUrl>
+    <address>3 White Bluff Dr, Whitney, TX 76692</address>
+</Placemark>
+<Placemark>
+    <name>Turtle Hill Golf Course</name>
+    <description><![CDATA[<b>Price:</b> $ ($40-60)<br/><a href="https://playtheturtle.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/8054-turtle-hill-golf-course/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-budget</styleUrl>
+    <address>7708 N FM 373, Muenster, TX 76252</address>
+</Placemark>
+<Placemark>
+    <name>Squaw Valley - Apache Links</name>
+    <description><![CDATA[<b>Price:</b> $ ($40-70)<br/><a href="https://www.squawvalleygc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/9120-squaw-valley-golf-course-apache-links/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-budget</styleUrl>
+    <address>2439 E Hwy 67, Glen Rose, TX 76043</address>
+</Placemark>
+<Placemark>
+    <name>Squaw Valley - Comanche Lakes</name>
+    <description><![CDATA[<b>Price:</b> $ ($40-70)<br/><a href="https://www.squawvalleygc.com">Website</a><br/><a href="https://www.golfnow.com/tee-times/facility/22696-squaw-valley-golf-course-comanche-lakes/search">Book Tee Time</a>]]></description>
+    <styleUrl>#toplay-budget</styleUrl>
+    <address>2439 E Hwy 67, Glen Rose, TX 76043</address>
+</Placemark>
+</Folder>
+</Document>
+</kml>
