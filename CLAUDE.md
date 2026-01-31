@@ -13,12 +13,14 @@ This is a personal golf course tracker for DFW-area public courses. The main dat
 1. Open `golf_tracker_template.csv`
 2. Add a new row with the following columns (in order):
    ```
-   Course Name, Status, City, Address, Google Maps Link, Website, Booking Link,
-   Price Range, Date Played, Time of Day, Conditions When Played, My Rating (1-10),
+   Course Name, Status, Priority, City, Address, Google Maps Link, Website, Booking Link,
+   Price Tier, Price Range, Date Played, Time of Day, Conditions When Played, My Rating (1-10),
    Player 1, Score 1, Player 2, Score 2, Player 3, Score 3, Player 4, Score 4, Notes
    ```
 
-3. For the **Google Maps Link**, use this format:
+3. For **Price Tier**, use: `$` (under $60), `$$` ($60-80), `$$$` ($80-125), `$$$$` ($125+)
+
+4. For the **Google Maps Link**, use this format:
    ```
    https://www.google.com/maps/search/?api=1&query=COURSE+NAME+CITY+TX
    ```
@@ -31,7 +33,7 @@ This is a personal golf course tracker for DFW-area public courses. The main dat
 ### Example New Course Entry
 
 ```csv
-Stevens Park Golf Course,To Play,Dallas,"1005 N Montclair Ave, Dallas, TX 75208",https://www.google.com/maps/search/?api=1&query=Stevens+Park+Golf+Course+Dallas+TX,https://www.stevensparkgolf.com,https://www.stevensparkgolf.com/tee-times/,$40-60,,,,,,,,,,,,Little Augusta - great downtown views
+Stevens Park Golf Course,To Play,,Dallas,"1005 N Montclair Ave, Dallas, TX 75208",https://www.google.com/maps/search/?api=1&query=Stevens+Park+Golf+Course+Dallas+TX,https://www.stevensparkgolf.com,https://www.stevensparkgolf.com/tee-times/,$$,$40-60,,,,,,,,,,,,Little Augusta - great downtown views
 ```
 
 ## How to Get More Course Information
@@ -96,11 +98,13 @@ golf-tracker/
 |--------|-------------|---------|
 | Course Name | Official name | Texas Star Golf Course |
 | Status | To Play / Played / Skipped | To Play |
+| Priority | 1 - Next Up / 2 - Soon / 3 - Eventually | 1 - Next Up |
 | City | City name | Euless |
 | Address | Full street address | 1400 Texas Star Pkwy, Euless, TX 76040 |
 | Google Maps Link | Direct link to maps | https://www.google.com/maps/search/?api=1&query=... |
 | Website | Course homepage | https://www.texasstargolf.com |
 | Booking Link | Tee time reservation page | https://www.texasstargolf.com/tee-times/ |
+| Price Tier | $ / $$ / $$$ / $$$$ | $$ |
 | Price Range | Typical weekend rate | $50-80 |
 | Date Played | YYYY-MM-DD format | 2025-03-15 |
 | Time of Day | Dawn Patrol / Morning / Midday / Afternoon / Twilight | Morning |
@@ -109,3 +113,12 @@ golf-tracker/
 | Player 1-4 | Names of playing partners | John |
 | Score 1-4 | Their scores | 82 |
 | Notes | Any additional info | AvidGolfer Best Overall West 2025 |
+
+## Price Tier Definitions
+
+| Tier | Symbol | Price Range | Color |
+|------|--------|-------------|-------|
+| Budget | $ | Under $60 | Green |
+| Value | $$ | $60-80 | Blue |
+| Premium | $$$ | $80-125 | Orange |
+| Luxury | $$$$ | $125+ | Purple |

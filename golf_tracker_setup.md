@@ -7,6 +7,52 @@
 
 ---
 
+## Price Tiers (Color-Coded)
+
+| Tier | Symbol | Price Range | Suggested Color |
+|------|--------|-------------|-----------------|
+| **Budget** | $ | Under $60 | Green (#d9ead3) |
+| **Value** | $$ | $60-80 | Blue (#cfe2f3) |
+| **Premium** | $$$ | $80-125 | Orange (#fce5cd) |
+| **Luxury** | $$$$ | $125+ | Purple (#d9d2e9) |
+
+### Apply Price Tier Colors
+1. Select the Price Tier column (Column I)
+2. Format > Conditional formatting
+3. Add rules:
+   - Text is exactly `$` → Green background (#d9ead3)
+   - Text is exactly `$$` → Blue background (#cfe2f3)
+   - Text is exactly `$$$` → Orange background (#fce5cd)
+   - Text is exactly `$$$$` → Purple background (#d9d2e9)
+
+---
+
+## Priority System
+
+Use to mark which courses you want to play next.
+
+| Priority | Meaning |
+|----------|---------|
+| **1 - Next Up** | Play this one ASAP |
+| **2 - Soon** | On the short list |
+| **3 - Eventually** | Want to play, no rush |
+| *(blank)* | Not prioritized yet |
+
+### Priority Dropdown (Column C)
+1. Select column C
+2. Data > Data validation > Dropdown
+3. Options: `1 - Next Up`, `2 - Soon`, `3 - Eventually`
+
+### Priority Colors (Optional)
+1. Select column C
+2. Format > Conditional formatting
+3. Rules:
+   - Text contains "Next Up" → Red background (#f4cccc)
+   - Text contains "Soon" → Yellow background (#fff2cc)
+   - Text contains "Eventually" → Light gray (#efefef)
+
+---
+
 ## Rating System (1-10)
 
 | Rating | Label | Description |
@@ -40,15 +86,35 @@
 | A4 | **Completion %** | |
 | B4 | (value) | `=ROUND(B2/B3*100,1)&"%"` |
 
+### Priority Counts
+| Cell | Label | Formula |
+|------|-------|---------|
+| A6 | **Next Up** | |
+| B6 | (count) | `=COUNTIF(Courses!C:C,"1 - Next Up")` |
+| A7 | **Soon** | |
+| B7 | (count) | `=COUNTIF(Courses!C:C,"2 - Soon")` |
+
 ### Stats (Played Courses Only)
 | Cell | Label | Formula |
 |------|-------|---------|
-| A6 | **Avg Rating** | |
-| B6 | (value) | `=ROUND(AVERAGEIF(Courses!B:B,"Played",Courses!L:L),1)` |
-| A7 | **Highest Rated** | |
-| B7 | (name) | `=INDEX(Courses!A:A,MATCH(MAX(Courses!L:L),Courses!L:L,0))` |
-| A8 | **Avg Score (Me)** | |
-| B8 | (value) | `=ROUND(AVERAGE(Courses!N:N),1)` |
+| A9 | **Avg Rating** | |
+| B9 | (value) | `=ROUND(AVERAGEIF(Courses!B:B,"Played",Courses!N:N),1)` |
+| A10 | **Highest Rated** | |
+| B10 | (name) | `=INDEX(Courses!A:A,MATCH(MAX(Courses!N:N),Courses!N:N,0))` |
+| A11 | **Avg Score (Me)** | |
+| B11 | (value) | `=ROUND(AVERAGE(Courses!P:P),1)` |
+
+### Price Tier Breakdown
+| Cell | Label | Formula |
+|------|-------|---------|
+| A13 | **Budget ($)** | |
+| B13 | (count) | `=COUNTIF(Courses!I:I,"$")` |
+| A14 | **Value ($$)** | |
+| B14 | (count) | `=COUNTIF(Courses!I:I,"$$")` |
+| A15 | **Premium ($$$)** | |
+| B15 | (count) | `=COUNTIF(Courses!I:I,"$$$")` |
+| A16 | **Luxury ($$$$)** | |
+| B16 | (count) | `=COUNTIF(Courses!I:I,"$$$$")` |
 
 ---
 
@@ -59,13 +125,23 @@
 2. Data > Data validation > Dropdown
 3. Options: `To Play`, `Played`, `Skipped`
 
-### Time of Day (Column J)
-1. Select column J
+### Priority (Column C)
+1. Select column C
+2. Data > Data validation > Dropdown
+3. Options: `1 - Next Up`, `2 - Soon`, `3 - Eventually`
+
+### Price Tier (Column I)
+1. Select column I
+2. Data > Data validation > Dropdown
+3. Options: `$`, `$$`, `$$$`, `$$$$`
+
+### Time of Day (Column L)
+1. Select column L
 2. Data > Data validation > Dropdown
 3. Options: `Dawn Patrol`, `Morning`, `Midday`, `Afternoon`, `Twilight`
 
-### Conditions When Played (Column K)
-1. Select column K
+### Conditions When Played (Column M)
+1. Select column M
 2. Data > Data validation > Dropdown
 3. Options:
    - `Perfect` - Ideal weather and course conditions
@@ -75,8 +151,8 @@
    - `Poor` - Tough conditions, hard to judge course fairly
    - `Cart Path Only` - Recent rain, restricted to paths
 
-### My Rating (Column L)
-1. Select column L
+### My Rating (Column N)
+1. Select column N
 2. Data > Data validation > Dropdown
 3. Options: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`
 
@@ -85,7 +161,7 @@
 ## Auto-Generate Google Maps Links
 If you add a course manually and just enter the name + city, use this formula:
 ```
-=HYPERLINK("https://www.google.com/maps/search/?api=1&query="&SUBSTITUTE(A2&" "&C2," ","+"), "Map")
+=HYPERLINK("https://www.google.com/maps/search/?api=1&query="&SUBSTITUTE(A2&" "&D2," ","+"), "Map")
 ```
 
 ---
@@ -101,15 +177,45 @@ If you add a course manually and just enter the name + city, use this formula:
    - Text is "Skipped" → Light gray background
 
 ### Rating Colors
-1. Select column L
+1. Select column N
 2. Format > Conditional formatting > Color scale
 3. Min (1) = Red, Mid (5) = Yellow, Max (10) = Green
 
 ### Conditions Colors
-1. Select column K
+1. Select column M
 2. Rules:
    - Text contains "Perfect" → Dark green text
    - Text contains "Poor" or "Cart Path" → Orange text
+
+---
+
+## Column Reference
+
+| Column | Field |
+|--------|-------|
+| A | Course Name |
+| B | Status |
+| C | Priority |
+| D | City |
+| E | Address |
+| F | Google Maps Link |
+| G | Website |
+| H | Booking Link |
+| I | Price Tier |
+| J | Price Range |
+| K | Date Played |
+| L | Time of Day |
+| M | Conditions When Played |
+| N | My Rating (1-10) |
+| O | Player 1 |
+| P | Score 1 |
+| Q | Player 2 |
+| R | Score 2 |
+| S | Player 3 |
+| T | Score 3 |
+| U | Player 4 |
+| V | Score 4 |
+| W | Notes |
 
 ---
 
